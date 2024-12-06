@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header">
+        <div class="logo">
+            <p>LetsPlay</p>
+        </div>
+        <nav class="nav">
+            <ul class="list">
+                <li><a class="nav-a" href="#">Home</a></li>
+                <li><a class="nav-a" href="#">categories</a></li>
+                <li><a class="nav-a" href="#">Products</a></li>
+                <li><a class="nav-a" href="#">Conatct</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- banner  -->
+    <section class="banner">
+        <div class="slider">
+            <div class="overlay">
+                <div class="details">
+                    <p>All your <span class="highlight">sports</span> at one place</p>
+                    <button class="btn">explore now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- categories  -->
+
+    <section class="categories">
+        <h1 class="section-title">Feature Categeries</h1>
+        <div class="content">
+            <div class="category ">
+                <div class="cat-details">
+                    For Her
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    For Men
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    For Kids
+                </div>
+            </div>
+            <div class="category">
+                <div class="cat-details">
+                    For Men
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- products -->
+    <section class="Products"> 
+        <div class="new-p">
+            <h1 class="new">New Products</h1>
+        </div>
+        <div class="product-content">
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/dumbel.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Dumbells</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/shoes.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Shoes</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/tshirt.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Tshirts</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/bottle.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Bottle</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/sport.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Dumbells</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/sport.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Dumbells</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/sport.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Dumbells</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="/demoCSS/images/sport.png" alt="">
+                </div>
+                <div class="product-details">
+                    <h1> Dumbells</h1>
+                    <p>Lorem ipsum dolor,met consectetur adipisicing elit. Officia, incidunt! Delectus nam quia ullam
+                        dicta sed, quasi possimus.</p>
+                    <h2>$20</h2>
+                    <button>Buy Now</button>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.onscroll=function(){
+           if(window.scrollY>=100){
+            document.getElementById('header').style.backgroundColor="white";
+           }else{
+                document.getElementById('header').style.backgroundColor="transparent";
+           }
+            
+        }
+    </script>
+</body>
+
+</html>
